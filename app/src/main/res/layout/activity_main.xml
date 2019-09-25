@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <com.menu.mylibrary.SlidingOptionsMenu
+        android:id="@+id/slidingOptionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="15dp"
+        myapp:indicatorText="@string/select"
+        myapp:stroke_color="@color/colorAccent" />
+
+    <com.menu.mylibrary.SlidingOptionsMenuEasy
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

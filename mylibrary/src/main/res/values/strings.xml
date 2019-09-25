@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="select">C语言,Java,C#,PHP,iOS</string>
+</resources>
