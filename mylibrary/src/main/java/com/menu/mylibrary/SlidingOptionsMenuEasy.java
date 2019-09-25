@@ -18,7 +18,7 @@ public class SlidingOptionsMenuEasy extends View {
 
     private Paint whitePaint, textPaint2;
     private int height, width;
-    private String[] title = {"你好", "他好", "我好", "都好", "都好", "都好"};
+    private String[] title = {"私信", "评论", "@我", "通知"};
     private float boderWidth = 3;
     private float textSize = 50;
     private float touchPoint = 0;
