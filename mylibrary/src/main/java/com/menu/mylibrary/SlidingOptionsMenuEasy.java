@@ -28,6 +28,7 @@ public class SlidingOptionsMenuEasy extends View {
 
     public SlidingOptionsMenuEasy(Context context) {
         super(context);
+
         initPaint();
     }
 
